@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strength Tester</title>
+    <link href="https://cdn.remixicon.com/releases/v1.2.2/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="inputContainer">
+        <div class="passwordInput">
+            <div class="title">
+                <h1>PASSWORD</h1>
+            </div>
+            <div class="input">
+                <input type="password" id="passwordInput" required placeholder="Enter Your Password">
+                <p>Password Strength:<span id="Strength"></span></p>
+            </div>
+            <div class="submit">
+                <button id="SubmitBtn">SUBMIT</button>
+            </div>
+        </div>
+        <div class="passwordSuggester">
+            <div class="title">
+                <h1>SUGGESTED PASSWORD</h1>
+            </div>
+            <div class="input">
+                <div class="suggestedPass">
+                    <h2 id="suggested">Suggested Password</h2>
+                </div>
+                <p id="copy">copy</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
